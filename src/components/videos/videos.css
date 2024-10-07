@@ -1,0 +1,34 @@
+#images {
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+.images-content {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.images-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-container a img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.image-container a img:hover {
+    transform: scale(1.05);
+}
